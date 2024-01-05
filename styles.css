@@ -110,7 +110,16 @@
   }
   .col-sm-4 {
     flex: 0 0 auto;
-    width: 33.333%;
+    width: 50%;
+  }
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
   }
   .row {
     display: flex;
